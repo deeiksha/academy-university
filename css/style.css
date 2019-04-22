@@ -1,0 +1,908 @@
+* {
+  box-sizing: border-box;
+}
+*:focus, *:active {
+  outline: none;
+}
+body {
+    margin: 0 auto;
+}
+.admissions .wrapper {
+  width: 1280px;
+  overflow: visible;
+}
+.wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+  opacity: .7;
+  color: #ffae00;
+}
+.common-top-heading span {
+  position: relative;
+  background: white;
+  padding: 0 10px;
+  color: #002748;
+  font-family: roboto slab;
+  font-size: 50px;
+}
+.common-top-heading span:before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 780px;
+  left: 50%;
+  top: 50%;
+  z-index: -1;
+  transform: translateX(-50%);
+  background: #002748;
+}
+/*** header ***/
+
+/*** top ***/
+
+header {
+  /* background-color: red; */
+  position: relative;
+}
+header .top {
+  background-color: #002748;
+  padding: 30px 0;
+}
+header .top .logo img {
+  height: 65px;
+  width: auto;
+}
+header .top .right {
+  float: right;
+}
+header .top .social-icons {
+  float: left;
+  /* padding: 13px 0px 0px 0px; */
+  margin-top: 13px;
+}
+header .top .social-icons li {
+  display: inline;
+  padding-left: 5px;
+}
+header .mob_search a img,
+header .mob_nav a img{
+  display: none;
+}
+header .top .social-icons img {
+  width: 40px;
+}
+header .top .search {
+  position: relative;
+  float: left;
+  margin-top: 13px;
+  margin-right: 30px;
+}
+header .top .right .search input {
+  height: 40px;
+  width: 200px;
+  padding: 0px 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 0px;
+  /* position: relative; */
+}
+header .top .right .search button {
+  width: 40px;
+    height: 40px;
+  position: absolute;
+  left: 80%;
+  background: #ffae00;
+  top: 0px;
+  border-radius: 0px 10px 10px 0px;
+  border: 0px;
+  cursor: pointer;
+}
+
+/*** navigation ***/
+
+header nav {
+  background-color: rgba(0, 0, 0, .8);
+  padding: 20px 0;
+  position: relative;
+  z-index: 10;
+}
+header nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  font-size: 18px;
+  font-family: raleway;
+  font-weight: bold;
+}
+header nav ul li a {
+  color: white;
+  padding: 40px 0px 0px 30px;
+}
+header .top .mob_nav button {
+  display: none;
+}
+
+/*** main visual ***/
+
+main {
+  background-image: url(../img/main_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 660px; */
+  overflow: hidden;
+  margin-top: -61px;
+}
+main .wrapper {
+  overflow: visible;
+}
+main .content {
+  width: 730px;
+  padding: 250px 0px 200px 0px;
+  position: relative;
+  /* overflow: hidden; */
+}
+main .content h3 {
+  font-family: roboto slab;
+  font-size: 30px;
+  font-weight: normal;
+}
+main .content .button {
+  text-align: center;
+  width: 38%;
+}
+main .content a {
+  padding: 15px 20px;
+  background-color: #002748;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: raleway;
+  position: absolute;
+  margin-top: 20px;
+
+}
+main .content p {
+  width: 500px;
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 30px;
+}
+main .content:before, main .content:after {
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  background-color: rgba(255, 174, 0, 0.8);
+}
+main .content:before {
+  height: 100%;
+  width: 2000px;
+  right: 420px;
+  top: 0;
+}
+main .content:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: calc(100% - 420px);
+  top: 0;
+  border-width: 730px 0px 0px 460px;
+  border-style: solid;
+  border-color: transparent transparent transparent rgba(255, 174, 0, 0.8);
+  box-sizing: border-box;
+  background: transparent;
+}
+main .content h3, main .content p, main .content button {
+  position: relative;
+  z-index: 9;
+  letter-spacing: 1px;
+  color: #ffff;
+}
+main .content h3 {
+  margin-top: 0;
+}
+
+/*** Programmes ***/
+.programmes {
+  margin: 100px auto;
+}
+.programmes .wrapper {
+  width: 1080px;
+}
+.programmes .undergraduation,
+.programmes .postgraduation{
+  height: 285px;
+  background-color: #002748;
+  clear: both;
+  overflow: hidden;
+}
+.programmes .content {
+  width: 450px;
+  text-align: center;
+  clear: both;
+  margin: 40px 40px;
+}
+.programmes h3 {
+  font-family: roboto slab;
+  color: #ffff;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.programmes p {
+  font-family: raleway;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin: 20px 0px 30px 0px;
+}
+.programmes a {
+  font-family: raleway;
+  font-size: 18px;
+  padding: 8px 15px;
+  background-color: #ffae00;
+  color: #002748;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+}
+.programmes .undergraduation img {
+  float: right;
+  /* height: 284px; */
+}
+.programmes .undergraduation .content {
+  float: left;
+}
+.programmes .postgraduation img {
+  float: left;
+  /* height: 284px; */
+}
+.programmes .undergrad_img.mob {
+  display: none;
+}
+.programmes .postgraduation .content {
+  float: right;
+}
+
+/*** Admissons ***/
+.admissions {
+  background-image: url(../img/admissions_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.admissions .content {
+  width: 50%;
+  padding: 167px 0px;
+  text-align: center;
+  position: relative;
+}
+.admissions .content * {
+  position: relative;
+  z-index: 10;
+}
+.admissions .content:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 4000px;
+  right: 0;
+  background: rgba(0, 39, 72, 0.8);
+  top: 0;
+  z-index: 1;
+}
+.admissions .content h3 {
+  font-family: raleway;
+  font-size: 30px;
+  text-transform: uppercase;
+  white-space: pre-line;
+  color: #ffff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+.admissions .content p {
+  font-family: raleway;
+  font-size: 28px;
+  white-space: pre-line;
+  color: #ffff;
+  letter-spacing: 1px;
+  line-height: 50px;
+}
+.admissions .content a {
+  font-size: 26px;
+  color: #000;
+  font-family: raleway;
+  font-weight: 600;
+  background-color: #ffae00;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/*** News ***/
+
+.news {
+  margin-top: 90px;
+}
+.news_all {
+  display: flex;
+  margin-top: 100px;
+}
+.news_heading {
+  text-align: center;
+}
+.news1 .date {
+  background-color: #002748;
+  color: #ffff;
+  font-family: roboto slab;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  position: absolute;
+  right: 80px;
+  transform: translateY(-40%);
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+}
+.news_content {
+  margin-right: 50px;
+  position: relative;
+}
+.news_content img {
+  display: block;
+}
+.news_text {
+  width: 358px;
+  padding: 40px 50px 75px 50px;
+  text-align: center;
+  border: 0.5px solid #002748;
+  color: #002748;
+  position: relative;
+}
+.news_text h3 {
+  margin: 0 auto;
+  font-family: roboto slab;
+  font-size: 22px;
+  line-height: 30px;
+}
+.news_text p {
+  font-family: raleway;
+  font-size: 17px;
+  line-height: 30px;
+  margin: 20px 0px 30px 0px;
+}
+.news_text a {
+  font-family: raleway;
+  font-weight: 700;
+  border: 2px solid #ffae00;
+  color: #ffae00;
+  border-radius: 10px;
+  padding: 5px 8px;
+  letter-spacing: 1px;
+}
+
+/*** Events ***/
+
+.events {
+  margin-top: 90px;
+}
+.events_heading {
+  text-align: center;
+}
+.events_all {
+  display: flex;
+  margin-top: 100px;
+}
+.events1 .date {
+  background-color: #ffae00;
+  color: #002748;
+  font-family: roboto slab;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 80px;
+  transform: translateY(-40%);
+  display: flex;
+  align-items: center;
+  top: 0;
+  z-index: 1;
+}
+.events_content {
+  margin-right: 50px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.events_content img {
+  display: block;
+}
+.events_text {
+  text-align: center;
+  color: #002748;
+  padding: 50px 0px;
+}
+.events_text h3 {
+  margin: 0 auto;
+  font-family: roboto slab;
+  font-size: 20px;
+  line-height: 30px;
+}
+.events_text p {
+  font-family: raleway;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0px 50px;
+  margin: 30px 0px;
+
+}
+.events_text a {
+  font-family: raleway;
+  font-weight: 700;
+  border: 2px solid #002748;
+  color: #002748;
+  border-radius: 10px;
+  padding: 5px 8px;
+  letter-spacing: 1px;
+}
+
+/*** Footer ***/
+
+footer {
+  background-color: #002748;
+  color: #fff;
+}
+.footer_top {
+  display: flex;
+  padding: 80px 0px 50px 0px;
+}
+.logo2 {
+  width: 120px;
+  height: 80px;
+  margin-top: 50px;
+}
+footer .footer_content .address h1 {
+  background-image: url('../img/location.png');
+  background-size: 18px;
+
+}
+footer .footer_content .phone h1 {
+  background-image: url('../img/phone.png');
+  background-size: 22px;
+
+}
+footer .footer_content .email h1 {
+  background-image: url('../img/email.png');
+  background-size: 22px;
+  margin-top: 30px;
+
+}
+footer .footer_content h1 {
+  margin: 0;
+  /* background-image: url('../img/location.png'); */
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  margin-left: -40px;
+  font-size: 18px;
+  font-family: raleway;
+  font-weight: normal;
+}
+
+footer .footer_content {
+  padding-left: 130px;
+}
+footer span img {
+  width: 25px;
+}
+footer p  {
+  font-size: 16px;
+  font-family: raleway;
+  white-space: pre-line;
+  line-height: 30px;
+  margin: 0 ;
+}
+footer .signup {
+  white-space: pre-line;
+  text-align: center;
+}
+
+footer .social_icons2 {
+  margin: 50px 0px 0px 0px;
+  padding: 0px;
+}
+footer .social_icons2 li {
+  display: inline;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+footer .social_icons2 img {
+  width: 40px;
+}
+footer .signup input {
+  height: 40px;
+  width: 260px;
+  border-radius: 10px;
+  border: 0px;
+  opacity: .6;
+  position: relative;
+  font-size: 15px;
+    padding: 0px 10px;
+}
+footer .signup a {
+  padding:15px 20px;
+  background: #ffae00;
+  color: #002748;
+  font-family: raleway;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+  /* position: absolute; */
+  /* right: 299px; */
+  margin: 15px 0px 0px 5px;
+  float: left;
+  display: inline-block;
+}
+footer .copyrights {
+  background-color: #000;
+  padding: 5px 0px 5px 0px;
+  font-family: raleway;
+}
+footer .footer_mob {
+  display: none;
+}
+
+#toTop1 {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  background: #ffae00;
+  padding: 10px;
+  color: #002748;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: raleway;
+  font-weight: bolder;
+  border-radius: 2px;
+  z-index: 1;
+  height: 45px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* common */
+  .wrapper {
+    width: 100%;
+    padding: 0 30px;
+  }
+  header .social-icons, header nav {
+    display: none;
+  }
+  .search  {
+    display: none;
+  }
+  main {
+    margin-top: 0px;
+  }
+
+  /****header****/
+
+  header .top {
+    padding: 3% 0;
+    position: relative;
+    z-index: 10;
+  }
+  header .top .logo img {
+    width: 42%;
+    height: auto;
+    float: left;
+  }
+  header .top .mob_nav button  {
+    float: right;
+    background: transparent;
+    border: 0;  
+    display: block;
+    cursor: pointer;
+  }
+  header .top .mob_nav button img {
+    height: 40px;
+  }
+  header .top .mob_nav button img:hover {
+    opacity: .3;
+
+  }
+  header nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding: 0;
+    top: -310px;
+    transition: all .5s ease;
+    z-index: 1;
+  }
+  header nav.active {
+    top: 100%;
+  }
+  header nav .wrapper {
+    padding: 0;  
+  }
+  header nav ul {
+    width: 100%;
+  }
+  header nav ul li {
+    display: block;
+  }
+  header nav ul li a {
+    display: block;
+    padding: 20px;
+    cursor: pointer;
+  }
+  header nav ul li.active a:hover {
+    background: black;
+    color: #ffae00;
+  }
+  /****navigation****/
+  header .top .mob_nav button .mob_nav {
+    height: 35px;
+
+  }
+
+  /****main****/
+
+  main .content {
+    width: auto;
+    padding: 0;
+}
+main {
+  background-image: url(../img/main_mob.jpg);
+  padding: 200px 0px 200px 0px;
+
+}
+main .wrapper {
+  padding: 0px 30px;
+}
+main .content h3 {
+  font-size: 34px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+main .content p {
+  width: 525px;
+    font-size: 25px;
+  line-height: 27px;
+}
+main .content:before {
+    width: 2000px;
+    left: 50%;
+    top: 20px;
+    height: 650px;
+    transform: translateX(-50%) rotate(23deg);
+    /* z-index: 8; */
+}
+main .content:after {
+  display: none;
+}
+main .content a {
+  font-size: 25px;
+  left: 50%;
+  transform: translate(-50%);
+}
+main .content p {
+  margin-bottom: 40px;
+  width: auto;
+}
+
+
+  /****programmes****/
+
+  .programmes{
+    background: #002748;
+  }
+  .programmes .content {
+    width: auto;
+    clear: none;
+  }
+  .programmes .undergraduation img {
+    float: none;
+    height: auto;
+  }
+  .programmes .undergraduation .content {
+    float: none;
+  }
+  .programmes .postgrad_img  {
+    display: none;
+  }
+  .programmes .postgraduation .content {
+    float: none;
+  }
+
+  .programmes .undergraduation,
+.programmes .postgraduation{
+  height: auto;
+}
+.programmes .wrapper {
+  padding: 0%;
+  width: 100%;
+}
+.programmes .content {
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+.programmes p {
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 20px 0px 35px 0px;
+}
+.programmes a {
+  font-size: 25px;
+}
+.programmes h3 {
+  font-size: 30px;
+}
+.programmes {
+  margin: 0px auto;
+}
+
+
+
+
+
+
+
+  /****admissions****/
+
+  .admissions .content, .admissions .wrapper {
+    width: 100%;
+  }
+  .admissions .content {
+    padding: 167px 20px;
+  }
+  .admissions .wrapper  {
+    padding: 0%;
+  }
+  .admissions .content a {
+    font-size: 30px;
+}
+.admissions .content h3 {
+  font-size: 30px;
+}
+.admissions .content p {
+  font-size: 25px;
+}
+.admissions {
+  background-image: url(../img/admissions_mob.jpg);
+}
+
+
+
+ /****news****/
+
+
+.news_all {
+  flex-direction: column
+}
+
+.news_content {
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.news_text, .news_content img {
+  margin: 0 auto;
+  width: inherit;
+}
+.news_text a, .events_text a {
+  font-size: 20px;
+}
+.news_text h3, .events_text h3 {
+  font-size: 25px;
+}
+.news_text p, .events_text p {
+  font-size: 20px;
+}
+.programmes .undergraduation img, .programmes .postgraduation img {
+    width: 100%;
+  }
+ /****events****/
+
+ .events_all{
+   flex-direction: column;
+ }
+.events_content img {
+  width: 100%;
+  margin: 0 auto;
+}
+.events_content {
+    margin-right: 0px;
+}
+
+
+
+/****footer****/
+footer .footer_mob  {
+  display: block;
+  text-align: center;
+}
+footer .footer_top.wrapper {
+  display: none;
+}
+footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+
+  }
+  footer .signup p {
+    display: none;
+  }
+  footer .footer_content {
+    width: 51%;
+    margin: 0 auto;
+    padding-left: 0;
+    text-align: center;
+
+}
+
+footer .footer_content h1 {
+  width: 42%;
+    padding: 10px 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+footer .footer_content .email h1 {
+  margin-top: 20px;
+}
+
+footer .social_icons-mob {
+  padding: 40px 0px 50px 0px;
+}
+footer .signup a {
+  margin: 0 auto;
+    float: none;
+}
+footer .social_icons2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+footer .signup input {
+  width: 70%;
+  margin-bottom: 20px;
+}
+footer .social_icons2 img {
+  width: 50px;
+}
+footer .social_icons2 {
+  margin: 0 auto;
+}
+
+
+.navigation {
+  display: block;
+  background: red;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+}
