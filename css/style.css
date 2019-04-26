@@ -672,6 +672,7 @@ footer .footer_mob {
   main .content {
     width: auto;
     padding: 0;
+    color: #fff;
 }
 main {
   background-image: url(../img/main_mob.jpg);
