@@ -748,6 +748,7 @@ main .content p {
 .programmes .content {
   margin: 0 auto;
   padding: 80px 40px;
+  color: #fff;
 }
 .programmes p {
   font-size: 22px;
@@ -777,6 +778,7 @@ main .content p {
   }
   .admissions .content {
     padding: 167px 20px;
+    color: #fff;
   }
   .admissions .wrapper  {
     padding: 0%;
@@ -823,6 +825,9 @@ main .content p {
 }
 .programmes .undergraduation img, .programmes .postgraduation img {
     width: 100%;
+  }
+  .news1 .date {
+    color: #fff;
   }
  /****events****/
 
