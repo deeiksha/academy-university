@@ -892,6 +892,9 @@ footer .social_icons2 {
   flex-direction: row;
   width: 100%;
 }
+footer .social_icons2 li {
+  padding: 0;
+}
 footer .signup input {
   width: 70%;
   margin-bottom: 20px;
