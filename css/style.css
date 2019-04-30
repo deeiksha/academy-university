@@ -871,10 +871,11 @@ footer .wrapper {
 
 footer .footer_content h1 {
   width: 42%;
-    padding: 10px 40px;
+    padding: 10px 0px;
     margin: 0 auto;
     text-align: center;
     margin-top: 20px;
+    background-image: none;
 }
 footer .footer_content .email h1 {
   margin-top: 20px;
@@ -901,6 +902,10 @@ footer .social_icons2 img {
 }
 footer .social_icons2 {
   margin: 0 auto;
+}
+footer .footer_content .address h1, footer .footer_content .phone h1,
+footer .footer_content .email h1 {
+  background-image: none;
 }
 
 
