@@ -899,7 +899,9 @@ footer .signup input {
   width: 70%;
   margin-bottom: 20px;
 }
-
+footer .social_icons2 img {
+  width: 50px;
+}
 footer .social_icons2 {
   margin: 0 auto;
 }
